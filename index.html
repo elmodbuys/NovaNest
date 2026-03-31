@@ -1,0 +1,146 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NovaNest</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">NovaNest</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Open menu">&#9776;</button>
+        </nav>
+
+        <section id="hero">
+            <div class="hero-content">
+                <span class="hero-tag">Real Estate. Reimagined.</span>
+                <h1>Find Your Perfect Home, Faster</h1>
+                <p>
+                    NovaNest connects buyers, renters, and agents in one seamless platform. Less searching, more living.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#features" class="btn btn-ghost">See How It Works</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card visual-card--main">
+                    <img src="images/hero-property.jpg" alt="Featured property exterior">
+                    <div class="visual-overlay">
+                        <div class="visual-label">Featured Property</div>
+                        <div class="visual-price">R4 200 000</div>
+                        <div class="visual-location">Sea Point, Cape Town</div>
+                        <div class="visual-tags">
+                            <span>3 Bed</span>
+                            <span>2 Bath</span>
+                            <span>Garage</span>
+                        </div>    
+                    </div>
+                </div>
+                <div class="visual-card visual-card--stat">
+                    <div class="stat-number">12k+</div>
+                    <div class="stat-label">Active Listings</div>
+                </div>
+                <div class="visual-card visual-card--stat">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Match Rate</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-inner">
+                <div class="about-text">
+                    <span class="section-tag">Our Story</span>
+                    <h2>Built for People, Not Portals</h2>
+                    <p>
+                        NovaNest was founded in 2021 with one goal - to make finding a home less stressful and more human.
+                        We believe everyone deserves a place they love, and we're building the tools to make that happen.
+                    </p>
+                    <ul class="about-stats">
+                        <li><strong>2021</strong><span> Founded</span></li>
+                        <li><strong>50k+</strong><span> Happy Clients</span></li>
+                        <li><strong>8</strong><span> Cities</span></li>
+                    </ul>
+                </div>
+                <div class="about-image-block">
+                    <img src="images/about-home.jpg" alt="Beautiful home interior" class="about-photo">   
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="features-header">
+                <span class="section-tag">What We Offer</span>
+                <h2>Everything You Need, in One Place</h2>
+            </div>
+            <div class="features-inner">
+                <div class="features-image">
+                    <img src="images/feature-card-bg.jpg" alt="Modern apartment exterior">
+                </div>
+                <div class="features-content">
+                    <div class="card-grid">
+                        <div class="card">
+                            <div class="card-icon">🔍</div>
+                            <h3>Smart Search</h3>
+                            <p>Filter by location, price, and lifestyle to find your ideal match. Our algorithm learns what you love.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">📋</div>
+                            <h3>Instant Listings</h3>
+                            <p>Browse thousands of properties updated in real time. Never miss a new listing in your target area.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🤝</div>
+                            <h3>Agent Connect</h3>
+                            <p>Get matched with a trusted local agent in minutes. Real people, real expertise, real results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-inner">
+                <div class="contact-text">
+                    <span class="section-tag">Contact</span>
+                    <h2>Let's Find Your Next Home</h2>
+                    <p>
+                        Whether you're buying, renting, or just browsing - we're here to help. Drop us a message and we'll be in touch within 24 hours.
+                    </p>
+                </div>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="e.g. Sipho Dlamini">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us what you're looking for..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 NovaNest. All rights reserved.</p>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+</html>
